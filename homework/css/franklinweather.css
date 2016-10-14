@@ -1,0 +1,29 @@
+/*change the box model*/
+html *{
+    box-sizing: border-box;
+    background-color: antiquewhite
+}
+
+*;before, *:after{
+    box-sizing: border-box;
+    }
+
+h1{
+    text-align: center
+}
+
+nav {
+    text-align: center
+}
+
+h2{
+    text-align: center
+}
+p {
+    background-color: ghostwhite;
+    padding: 16px;
+    border: 1px solid #000000;
+    margin: 30px;
+    width: 500px;
+    text-align: center;
+}
