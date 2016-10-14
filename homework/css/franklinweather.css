@@ -1,7 +1,8 @@
 /*change the box model*/
 html *{
     box-sizing: border-box;
-    background-color: antiquewhite
+    background-color: antiquewhite;
+    font-size: 20px
 }
 
 *;before, *:after{
@@ -9,16 +10,28 @@ html *{
     }
 
 h1{
-    text-align: center
+    text-align: center;
+    font-size: 40px;
 }
+
 
 nav {
-    text-align: center
+    text-align: center;
 }
 
+
 h2{
-    text-align: center
+    text-align: center;
+    font-size: 30px;
 }
+
+
+
+h3{
+    font-size: 22px;
+}
+
+
 p {
     background-color: ghostwhite;
     padding: 16px;
@@ -27,5 +40,5 @@ p {
     width: 500px;
     text-align: center;
     position: relative; 
-        right: 5%;
+        right: 2.5%;
 }
