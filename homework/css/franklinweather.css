@@ -25,5 +25,7 @@ p {
     border: 1px solid #000000;
     margin: 30px;
     width: 500px;
-    text-align: ;
+    text-align: center;
+    position: relative; 
+        right: 5%;
 }
