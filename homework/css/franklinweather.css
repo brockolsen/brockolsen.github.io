@@ -1,13 +1,9 @@
 /*change the box model*/
-html *{
-    box-sizing: border-box;
+html {
     background-color: antiquewhite;
     font-size: 20px
 }
 
-*;before, *:after{
-    box-sizing: border-box;
-    }
 
 h1{
     text-align: center;
