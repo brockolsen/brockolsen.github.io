@@ -36,3 +36,9 @@ p {
     position: relative; 
         right: 2.5%;
 }
+
+img{
+    display: block;
+    margin: auto;
+    
+}
