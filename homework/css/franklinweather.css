@@ -39,6 +39,24 @@ p {
 
 img{
     display: block;
-    margin: auto;
+    margin: auto;   
+}
+
+.list{
+    display: none;
+}
+
+@media screen and (min-width: 40.99em){
+    .list{
+        display: list-item;
+    }
+    
+}
+
+
+@media screen and (min-width: 41em){
+    .list{
+        display: list-item;
+    }
     
 }
