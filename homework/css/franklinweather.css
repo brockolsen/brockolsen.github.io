@@ -52,4 +52,12 @@ img{
     }
     
 }
+
+
+@media screen and (min-width: 41em){
+    .list{
+        display: list-item;
+    }
+    
+}
     
