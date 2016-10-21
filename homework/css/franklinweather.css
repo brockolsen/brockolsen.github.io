@@ -49,6 +49,8 @@ img{
 @media screen and (min-width: 40.99em){
     .list{
         display: list-item;
+        position: absolute;
+        right: 50px
     }
     
 }
@@ -57,6 +59,8 @@ img{
 @media screen and (min-width: 41em){
     .list{
         display: list-item;
+        position: absolute;
+        right: 50px
     }
     
 }
