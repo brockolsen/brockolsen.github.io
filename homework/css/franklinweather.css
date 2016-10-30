@@ -1,7 +1,7 @@
 html {
     background-color: antiquewhite;
-    font-size: 20px
-}
+    font-size: 20px;
+    }
 
 
 h1{
@@ -24,6 +24,10 @@ h2{
 h3{
     font-size: 40px;
 }
+ul{
+    width: 150px;
+    font-size: 25px
+}
 
 
 p {
@@ -40,7 +44,8 @@ p {
 
 img{
     display: block;
-    margin: auto;   
+    margin: auto;  
+    padding: 50px
 }
 
 
@@ -49,7 +54,7 @@ img{
     display: none;
     font-size: 45px;
 }
-
+/*
 @media screen and (min-width: 80em){
     .list{
         display: list-item;
@@ -70,4 +75,18 @@ img{
     }
     
 }
+    */
+
+#wrapper {
+    display: flex;
+    flex-flow: column;
     
+}
+
+#content {
+    display: flex;
+    flex-flow: row;
+    width: 200px;
+    position: relative;
+    right: -450px
+}
