@@ -45,7 +45,8 @@ p {
 img{
     display: block;
     margin: auto;  
-    padding: 50px
+    padding: 50px;
+    width: 550px
 }
 
 
