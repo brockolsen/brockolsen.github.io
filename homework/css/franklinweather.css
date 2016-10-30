@@ -26,7 +26,10 @@ h3{
 }
 ul{
     width: 150px;
-    font-size: 25px
+    font-size: 25px;
+}
+li{
+    margin: 12px
 }
 
 
@@ -46,7 +49,8 @@ img{
     display: block;
     margin: auto;  
     padding: 50px;
-    width: 550px
+    width: 550px;
+    margin-top: 400px
 }
 
 
