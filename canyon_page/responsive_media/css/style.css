@@ -181,7 +181,7 @@ background-image:
         background-image:
         url(/canyon_page/responsive_media/images/nps-logo_100.png),
         url(/canyon_page/responsive_media/images/grand-canyon_800.jpg);
-    background-repeat: no-repeat, repeat;
+    background-repeat: no-repeat, no-repeat;
     background-position: right;
     background-size: 3.5em, 95%;
 
