@@ -61,15 +61,14 @@ function getData(input) {
   }
 
 
-
-
+// Intercept the menu link clicks
 $("#searchResults").on("click", "a", function (evt) {
   evt.preventDefault();
- 
+  // With the text value get the needed value from the weather.json file
   var jsonCity = $(this).text(); // Franklin, etc...
   console.log(jsonCity);
   $.ajax({
-    url: "https://api.wunderground.com/api/9dcea6730ca4d03e/geolookup/conditions/q/"
+    url: "https://api.wunderground.com/api/47d4acfe313b2d41/geolookup/conditions/q/"
     + jsonCity + ".json" 
     , dataType: "json"
     , success: function (data) {
