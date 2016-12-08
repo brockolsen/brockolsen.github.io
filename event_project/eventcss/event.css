@@ -52,7 +52,7 @@ h1 {
 .page-header {
 background-image:
     url(/event_project/images/logo_50.png),
-    url(/event_project/images/banner_400.jpg);
+    url(/event_project/images/silverbanner_800.png);
     background-repeat: no-repeat, no-repeat;
     background-position: right;
     background-size: 2em, 100%;
@@ -186,7 +186,7 @@ background-image:
 	.page-header {
         background-image:
         url(/event_project/images/logo_100.png),
-        url(/event_project/images/banner_800.jpg);
+        url(/event_project/images/silverbanner_800.png);
     background-repeat: no-repeat, no-repeat;
     background-position: right;
     background-size: 3.5em, 100%;
