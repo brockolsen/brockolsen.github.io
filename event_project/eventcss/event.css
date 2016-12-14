@@ -359,8 +359,6 @@ a:link {
     margin:25px 0px;
     display:block;
     width:437px;
-    -webkit-border-radius:8px;
-    -moz-border-radius:8px;
     border-radius:8px;
     background:#FFE6E6 url(../img/cancel_48.png) no-repeat 405px center;
     display:none;
@@ -389,8 +387,6 @@ a:link {
     margin:25px 0px;
     display:block;
     width:437px;
-    -webkit-border-radius:8px;
-    -moz-border-radius:8px;
     border-radius:8px;
     background:#D3EDD3 url(../img/accepted_48.png) no-repeat 405px center;
     font-weight:bold;
