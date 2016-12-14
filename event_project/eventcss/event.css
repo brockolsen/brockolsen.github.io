@@ -106,11 +106,11 @@ a:link {
 	position: relative;
 }
 
-.featured-image {
+.cimage {
 	margin: 1em 0;
 }
 
-.featured-image img {
+.cimage img {
 	display: block;
 	width: 100%;
 	height: auto;
@@ -123,7 +123,7 @@ a:link {
 	background: rgba(0, 0, 0, .1);
 }
 
-.featured-video {
+.video {
 	display: block;
 	width: 100%;
 	height: auto;
@@ -188,19 +188,19 @@ a:link {
 	.main {
 		line-height: 1.375;
 	}
-	.featured-video {
+	.video {
 		margin: 0 1em 1em 0;
 		float: left;
 		width: 50%;
 	}
-	.featured-image {
+	.cimage {
 		float: right;
 		display: inline-block;
 		width: 50%;
 		height: auto;
 		margin: 0 1em 1em 0;
 	}
-	.featured-video+p {
+	.video+p {
 		clear: both;
 	}
 	.page-footer {
@@ -409,14 +409,6 @@ a:link {
     font-style:italic;
 }
  
-/* Remove box shadow firefox, chrome and opera put around required fields. It looks rubbish. */
-input:required, textarea:required {
-    -moz-box-shadow:none;
-    -webkit-box-shadow:none;
-    -o-box-shadow:none;
-    box-shadow:none;
-}
- 
 /* Normalize placeholder styles */
  
 /* chrome, safari */
@@ -425,14 +417,5 @@ input:required, textarea:required {
     font-style:italic;
 }
  
-/* mozilla */
-input:-moz-placeholder, textarea:-moz-placeholder {
-    color:gainsboro;
-    font-style:italic;
-}
- 
-/* ie (faux placeholder) */
-input.placeholder-text, textarea.placeholder-text  { 
-    color:gainsboro;
-    font-style:italic;
+
 }
