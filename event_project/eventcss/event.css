@@ -56,7 +56,6 @@ background-image:
 
 .page-nav {
 	background-color: rgb(0, 0, 0);
-	position: auto;
     display: flex;
     flex: auto;
 	bottom: 0;
@@ -81,7 +80,7 @@ background-image:
 	flex: 1;
 	display: flex;
     flex: auto;
-    width: 100%
+    width: 100%;
 	justify-content: center;
 }
 
@@ -249,10 +248,7 @@ a:link {
 		border-collapse:collapse;
 		padding:5px;
 	}
-	.chart th {
-		border: none;
-		padding:5px;
-	}
+	
 	.chart td {
 		border: none;
 		padding:5px;
